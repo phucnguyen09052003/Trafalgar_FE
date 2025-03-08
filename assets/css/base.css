@@ -1,0 +1,54 @@
+:root{
+    --bgColor:#FFFFFF;
+    --textColor:#1F1534;
+}
+body{
+    font-family: "Mulish", sans-serif;
+    background-color: var(--bgColor);
+    color:var(--textColor);
+    font-size: 18px;
+    border: none;
+    outline: none;
+    
+}
+.header{
+    background: var(--bgColor);
+    margin-top: 56px;
+    margin-left: -49px;
+    margin-right: 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    margin-left:130px;
+    align-items: flex-end;
+    gap:12px;
+}
+.header-nav-list{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+.header-nav-item{
+    list-style: none;
+    text-decoration: none;
+}
+.header-nav-link{
+    color:var(--textColor);
+    list-style: none;
+    text-decoration: none;
+    opacity: 0.5;
+   
+}
+.header-nav-link.active{
+    font-weight: 600;
+    color: var(--textColor);
+    opacity: 1;
+}
+.header-nav-link:hover{
+    font-weight: 600;
+    color: var(--textColor);
+    opacity: 1;
+    text-decoration: none;
+}

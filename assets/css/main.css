@@ -1,0 +1,58 @@
+#landing-page {
+    padding-top: 186px;
+    
+  
+    h1 {
+      font-weight: 500;
+      font-size: 3rem;
+      line-height: 56px;
+  
+      color: var(--textColor);
+    }
+    p {
+      margin-top: 1.6rem;
+  
+      font-weight: 300;
+      font-size: 1.3rem;
+      line-height: 32px;
+  
+      color: var(--textColor    );
+    }
+    a {
+      margin-top: 3rem;
+    }
+  
+    .landing-page-ilust {
+      margin-top: -106px;
+  
+     
+    }
+  
+    .landing-page-shape-1 {
+      position: absolute;
+      top: 63px;
+      left: -50px;
+      z-index: -1;
+    }
+    .btn-1 {
+        height: 56px;
+        width: 200px;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        border-radius: 55px;
+        background-color: #458FF6;
+      
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 60px;
+      
+        color: #FFFF;
+      
+        
+        transition: background-color 0.3s ease;
+      }
+    
+  }
